@@ -30,8 +30,8 @@ import lombok.ToString;
 @ToString
 public class Customer 
 {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id							
+	@GeneratedValue(strategy = GenerationType.IDENTITY)			//here id generation can be AUTO
 	private Integer customerId;
 	
 	@NotNull
