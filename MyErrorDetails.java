@@ -22,7 +22,7 @@ public class MyErrorDetails
 		this.message = message;
 	}
 
-	
+	//getter setters
 	public LocalDateTime getTimeStamp() {
 		return timeStamp;
 	}
