@@ -35,6 +35,6 @@ public class Address
 	    private String state;
 	    private String country;
 	
-	@OneToOne(cascade = CascadeType.ALL,fetch=FetchType.EAGER)	//relationship mapping
+	@OneToOne(cascade = CascadeType.ALL,fetch=FetchType.EAGER)	//relationship mapping to Customer
 	private Customer customer;
 }
