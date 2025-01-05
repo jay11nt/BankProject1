@@ -30,7 +30,7 @@ public class MyController
 	{
 		Customer customer2 = customerService.saveCustomer(customer);
 		
-		return new ResponseEntity<Customer> (customer2, HttpStatus.CREATED);
+		return new ResponseEntity<Customer> (customer2, HttpStatus.CREATED);			//Http status 
 	}
 	
 	@GetMapping("/get/{id}")
@@ -38,7 +38,7 @@ public class MyController
 	{
 		Customer byCustomerId = customerService.getByCustomerId(Id);
 		
-		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.FOUND);
+		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.FOUND);			//Http status 
 	}
 	
 	@GetMapping("/getall")
@@ -46,7 +46,7 @@ public class MyController
 	{
 		List<Customer> byAll = customerService.getByAll();
 		
-		return new ResponseEntity<List<Customer>>(byAll,HttpStatus.FOUND);
+		return new ResponseEntity<List<Customer>>(byAll,HttpStatus.FOUND);			//Http status 
 	}
 	
 	@PutMapping("/update/{id}")
