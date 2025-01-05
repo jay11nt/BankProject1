@@ -9,20 +9,20 @@ public class MyErrorDetails
 	private String message;
 	
 	
-	public MyErrorDetails() {
+	public MyErrorDetails() {		//default constructor
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 
-	public MyErrorDetails(LocalDateTime timeStamp, String details, String message) {
+	public MyErrorDetails(LocalDateTime timeStamp, String details, String message) {		//parameterized constructor
 		super();
 		this.timeStamp = timeStamp;
 		this.details = details;
 		this.message = message;
 	}
 
-
+	
 	public LocalDateTime getTimeStamp() {
 		return timeStamp;
 	}
