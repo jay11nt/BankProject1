@@ -52,7 +52,7 @@ public class MyErrorDetails
 		this.message = message;
 	}
 
-
+	//to-string method
 	@Override
 	public String toString() {
 		return "MyErrorDetails [timeStamp=" + timeStamp + ", details=" + details + ", message=" + message + "]";
