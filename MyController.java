@@ -54,7 +54,7 @@ public class MyController
 	{
 		Customer byCustomerId = customerService.updateByCustomerId(id);
 		 
-		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.OK);
+		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.OK);			//Http status 
 	}
 	
 	@DeleteMapping("/delete/{id}")
@@ -62,6 +62,6 @@ public class MyController
 	{
 		Customer byCustomerId = customerService.deleteByCustomerId(id);
 		
-		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.OK);
+		return new ResponseEntity<Customer>(byCustomerId,HttpStatus.OK);			//Http status 
 	}
 }
