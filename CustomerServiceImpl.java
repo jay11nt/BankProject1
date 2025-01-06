@@ -13,7 +13,7 @@ import in.bank.repo.CustomerRepo;
 import in.bank.service.CustomerService;
 
 @Service
-public class CustomerServiceImpl implements CustomerService
+public class CustomerServiceImpl implements CustomerService		//here implements the interface(customerService)
 {
 	@Autowired
 	private CustomerRepo customerRepo;
