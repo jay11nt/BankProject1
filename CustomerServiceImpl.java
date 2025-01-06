@@ -71,7 +71,7 @@ public class CustomerServiceImpl implements CustomerService		//here we implement
 	@Override
 	public Customer deleteByCustomerId(Integer CustomerId) throws CustomerNotFound
 	{
-		 Customer object = customerRepo.findById(CustomerId).orElseThrow(()-> new CustomerNotFound("Customer not found for deletion"));
+		 Customer object = customerRepo.findById(CustomerId).orElseThrow(()-> new CustomerNotFound("Customer not found for deletion"));		//used lamba funtion here 
 		
 		return object;
 	}
