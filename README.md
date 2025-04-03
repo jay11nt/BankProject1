@@ -67,3 +67,4 @@ country
 | PUT    | /api/customers/update/{id}      | Update a customer record by ID                |
 | DELETE | /api/customers/delete/{id}      | Delete a customer record by ID                |
 
+### Request/Response Format:
