@@ -43,3 +43,16 @@ mobNumber (10 digits, required)
 aadharNumber (12 digits, required)
 - occupationType (must be one of: Student, Self-Employed, Service, Business, Retired, Housewife, Other)
 
+### Address:
+
+The Address entity includes:
+
+- addressId (auto-generated)
+addressType (required, e.g., "Permanent", "Temporary")
+homeNo
+pincode
+street
+city
+state
+country
+- customer (one-to-one relationship with Customer)
