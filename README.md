@@ -59,3 +59,11 @@ country
 
 ### API Endpoints
 
+| Method | Endpoint                        | Description                                   |
+|--------|---------------------------------|-----------------------------------------------|
+| POST   | /api/customers/save             | Create a new customer record                  |
+| GET    | /api/customers/get/{id}         | Retrieve a specific customer by ID            |
+| GET    | /api/customers/getall           | Retrieve all customers                        |
+| PUT    | /api/customers/update/{id}      | Update a customer record by ID                |
+| DELETE | /api/customers/delete/{id}      | Delete a customer record by ID                |
+
