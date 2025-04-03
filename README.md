@@ -23,3 +23,8 @@ Jakarta Validation API
 MySQL Database
 Lombok
 Maven
+
+## Data Models- 
+
+### Customer
+The Customer entity includes the following attributes:
