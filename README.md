@@ -13,3 +13,13 @@ This project provides a comprehensive solution for managing customer records in 
 - Global exception handling
 - RESTful API design
 - Database integration with JPA/Hibernate
+
+## Tech Stack-
+
+Java 17
+Spring Boot 3.1.5
+Spring Data JPA
+Jakarta Validation API
+MySQL Database
+Lombok
+Maven
