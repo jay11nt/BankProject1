@@ -30,7 +30,7 @@ Maven
 
 The Customer entity includes the following attributes:
 
-customerId (auto-generated)
+- customerId (auto-generated)
 firstName (3-15 characters, required)
 maidenName (3-15 characters, required)
 lastName (3-15 characters, required)
