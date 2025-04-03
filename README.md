@@ -1,4 +1,4 @@
 
-# Bank project: 
+# Bank Customer API
 
-🔸 bank Crud operation project of 2 entities (Customer,Address)
+🔸 A Spring Boot RESTful API for managing bank customer information with address details.
