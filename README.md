@@ -34,7 +34,7 @@ The Customer entity includes the following attributes:
 - firstName (3-15 characters, required)
 - maidenName (3-15 characters, required)
 - lastName (3-15 characters, required)
-gender (required)
+- gender (required)
 motherName (3-15 characters, required)
 fatherName (3-15 characters, required)
 dateofBirth (format: dd/MM/yyyy, required)
