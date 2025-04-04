@@ -36,7 +36,7 @@ The Customer entity includes the following attributes:
 - lastName (3-15 characters, required)
 - gender (required)
 - motherName (3-15 characters, required)
-fatherName (3-15 characters, required)
+- fatherName (3-15 characters, required)
 dateofBirth (format: dd/MM/yyyy, required)
 panNumber (exactly 5 capital letters, required)
 mobNumber (10 digits, required)
