@@ -19,7 +19,7 @@ This project provides a comprehensive solution for managing customer records in 
 - Java 17
 - Spring Boot 3.1.5
 - Spring Data JPA
-Jakarta Validation API
+- Jakarta Validation API
 MySQL Database
 Lombok
 Maven
