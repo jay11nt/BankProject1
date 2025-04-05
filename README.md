@@ -68,5 +68,31 @@ The Address entity includes:
 | DELETE | /api/customers/delete/{id}      | Delete a customer record by ID                |
 
 ### Request/Response Format:
+
 **Create Customer:**
+
 **Request:**
+
+    POST /api/customers/save
+    {
+      "firstName": "John",
+      "maidenName": "Smith",
+      "lastName": "Doe",
+      "gender": "Male",
+      "motherName": "Jane",
+      "fatherName": "James",
+      "dateofBirth": "15/05/1990",
+      "panNumber": "ABCDE",
+      "mobNumber": 9876543210,
+      "aadharNumber": "123456789012",
+      "occupationType": "Service",
+      "address": {
+        "addressType": "Permanent",
+        "homeNo": "42",
+        "pincode": "560001",
+        "street": "MG Road",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+      }
+    }
