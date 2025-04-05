@@ -54,7 +54,7 @@ The Address entity includes:
 - street
 - city
 - state
-country
+- country
 - customer (one-to-one relationship with Customer)
 
 ### API Endpoints
