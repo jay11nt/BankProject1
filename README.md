@@ -136,6 +136,6 @@ Generic exceptions
 
 **Error responses include:**
 
-Timestamp
+- Timestamp
 Error message
 Error details
