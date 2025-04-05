@@ -68,3 +68,4 @@ The Address entity includes:
 | DELETE | /api/customers/delete/{id}      | Delete a customer record by ID                |
 
 ### Request/Response Format:
+**Create Customer:**
