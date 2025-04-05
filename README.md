@@ -17,7 +17,7 @@ This project provides a comprehensive solution for managing customer records in 
 ## Tech Stack-
 
 - Java 17
-Spring Boot 3.1.5
+- Spring Boot 3.1.5
 Spring Data JPA
 Jakarta Validation API
 MySQL Database
