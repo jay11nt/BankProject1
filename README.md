@@ -49,7 +49,7 @@ The Address entity includes:
 
 - addressId (auto-generated)
 - addressType (required, e.g., "Permanent", "Temporary")
-homeNo
+- homeNo
 pincode
 street
 city
