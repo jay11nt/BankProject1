@@ -99,3 +99,27 @@ The Address entity includes:
 
 **Response:**
 
+        {
+          "customerId": 1,
+          "firstName": "John",
+          "maidenName": "Smith",
+          "lastName": "Doe",
+          "gender": "Male",
+          "motherName": "Jane",
+          "fatherName": "James",
+          "dateofBirth": "15/05/1990",
+          "panNumber": "ABCDE",
+          "mobNumber": 9876543210,
+          "aadharNumber": "123456789012",
+          "occupationType": "Service",
+          "address": {
+            "addressId": 1,
+            "addressType": "Permanent",
+            "homeNo": "42",
+            "pincode": "560001",
+            "street": "MG Road",
+            "city": "Bangalore",
+            "state": "Karnataka",
+            "country": "India"
+          }
+        }
