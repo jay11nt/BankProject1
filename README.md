@@ -22,7 +22,7 @@ This project provides a comprehensive solution for managing customer records in 
 - Jakarta Validation API
 - MySQL Database
 - Lombok
-Maven
+- Maven
 
 ## Data Models- 
 
