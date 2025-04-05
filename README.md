@@ -133,3 +133,9 @@ The application implements a global exception handler for several types of excep
 **IllegalArgumentException:** Invalid argument types
 **NoHandlerFoundException:** Endpoint not found
 Generic exceptions
+
+**Error responses include:**
+
+Timestamp
+Error message
+Error details
