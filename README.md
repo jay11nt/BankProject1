@@ -48,7 +48,7 @@ The Customer entity includes the following attributes:
 The Address entity includes:
 
 - addressId (auto-generated)
-addressType (required, e.g., "Permanent", "Temporary")
+- addressType (required, e.g., "Permanent", "Temporary")
 homeNo
 pincode
 street
