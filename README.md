@@ -21,7 +21,7 @@ This project provides a comprehensive solution for managing customer records in 
 - Spring Data JPA
 - Jakarta Validation API
 - MySQL Database
-Lombok
+- Lombok
 Maven
 
 ## Data Models- 
