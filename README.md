@@ -123,3 +123,7 @@ The Address entity includes:
             "country": "India"
           }
         }
+
+**Error Handling:**
+
+The application implements a global exception handler for several types of exceptions:
