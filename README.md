@@ -53,7 +53,7 @@ The Address entity includes:
 - pincode
 - street
 - city
-state
+- state
 country
 - customer (one-to-one relationship with Customer)
 
