@@ -51,7 +51,7 @@ The Address entity includes:
 - addressType (required, e.g., "Permanent", "Temporary")
 - homeNo
 - pincode
-street
+- street
 city
 state
 country
