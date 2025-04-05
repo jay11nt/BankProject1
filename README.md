@@ -50,7 +50,7 @@ The Address entity includes:
 - addressId (auto-generated)
 - addressType (required, e.g., "Permanent", "Temporary")
 - homeNo
-pincode
+- pincode
 street
 city
 state
