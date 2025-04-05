@@ -38,7 +38,7 @@ The Customer entity includes the following attributes:
 - motherName (3-15 characters, required)
 - fatherName (3-15 characters, required)
 - dateofBirth (format: dd/MM/yyyy, required)
-panNumber (exactly 5 capital letters, required)
+- panNumber (exactly 5 capital letters, required)
 mobNumber (10 digits, required)
 aadharNumber (12 digits, required)
 - occupationType (must be one of: Student, Self-Employed, Service, Business, Retired, Housewife, Other)
