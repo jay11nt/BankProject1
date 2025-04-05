@@ -96,3 +96,6 @@ The Address entity includes:
         "country": "India"
       }
     }
+
+**Response:**
+
