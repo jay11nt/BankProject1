@@ -52,7 +52,7 @@ The Address entity includes:
 - homeNo
 - pincode
 - street
-city
+- city
 state
 country
 - customer (one-to-one relationship with Customer)
