@@ -129,6 +129,7 @@ The Address entity includes:
 The application implements a global exception handler for several types of exceptions:
 
 **CustomerNotFound:** When a requested customer ID doesn't exist
+
 **MethodArgumentNotValidException:** Input validation errors
 **IllegalArgumentException:** Invalid argument types
 **NoHandlerFoundException:** Endpoint not found
