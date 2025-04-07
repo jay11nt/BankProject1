@@ -133,6 +133,7 @@ The application implements a global exception handler for several types of excep
 **MethodArgumentNotValidException:** Input validation errors
 
 **IllegalArgumentException:** Invalid argument types
+
 **NoHandlerFoundException:** Endpoint not found
 Generic exceptions
 
