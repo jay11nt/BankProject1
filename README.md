@@ -140,6 +140,5 @@ The Address entity includes:
 - **Error responses include:**
 
 - Timestamp
- Error message
-
+ Error message and
  Error details
